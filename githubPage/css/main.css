@@ -1,4 +1,4 @@
-@charset "gb2312";
+@charset "UTF-8";
 /* CSS Document */
 
 *{ margin:0; padding:0}
@@ -19,7 +19,7 @@ body{font-size:12px;background: url(../images/bg.jpg) repeat-x #e3effb;color:#66
 .news a,.newsul li a,#sideR ul li a,.newsR ul li a{ color:#666}
 .news a:hover,.newsul li a:hover,#sideR ul li a:hover,.newsR ul li a:hover{ color: #000fff;}
 #banner img{display: block; margin:auto;height: 500px;width: 100%;}
-/*Ö÷µ¼º½²Ëµ¥*/
+/*ä¸»å¯¼èˆªèœå•*/
 #menu ul{margin-left: 10px;}
 #menu_out{ width:990px; padding-left:4px; margin:auto; background:url(../images/menu_left.gif) no-repeat left top; clear:both}
 #menu_in{ background:url(../images/menu_right.gif) no-repeat right top; padding-right:4px;}
@@ -30,17 +30,17 @@ body{font-size:12px;background: url(../images/bg.jpg) repeat-x #e3effb;color:#66
 #nav li{ float:left; height:35px;}
 #nav li a{ float:left; display:block; padding-left:6px; height:35px; background:url(../images/menu_on_left.gif) no-repeat left top; cursor:pointer;text-decoration:none;}
 #nav li a span{ float:left; padding:11px 14px 10px 10px; line-height:14px; background:url(../images/menu_on_right.gif) no-repeat right top; font-size:14px; font-weight:bold;color:#FFFFFF;text-decoration:none;}
-#nav li .nav_on{ background-position:left 100%;}/*Êó±ê¾­¹ıÊ±±ä»»±³¾°£¬·½±ãJS»ñÈ¡ÑùÊ½*/
-#nav li .nav_on span{ background-position:right 100%; color:#333333; text-decoration:none; padding:14px 14px 7px 10px;}/*Êó±ê¾­¹ıÊ±±ä»»±³¾°£¬·½±ãJS»ñÈ¡ÑùÊ½*/
+#nav li .nav_on{ background-position:left 100%;}/*é¼ æ ‡ç»è¿‡æ—¶å˜æ¢èƒŒæ™¯ï¼Œæ–¹ä¾¿JSè·å–æ ·å¼*/
+#nav li .nav_on span{ background-position:right 100%; color:#333333; text-decoration:none; padding:14px 14px 7px 10px;}/*é¼ æ ‡ç»è¿‡æ—¶å˜æ¢èƒŒæ™¯ï¼Œæ–¹ä¾¿JSè·å–æ ·å¼*/
 
-/*×ÓÀ¸Ä¿*/
+/*å­æ ç›®*/
 #menu_con{ text-align:left; padding-left:20px; clear:both;}
 #menu_con li{ float:left; height:22px; margin-top:8px;}
 #menu_con li a{ display:block; float:left; background:url(../images/menu_on_left2.gif) no-repeat left top; cursor:pointer; padding-left:3px;}
 #menu_con li a span{ float:left; padding:6px 10px 4px 10px; line-height:12px; background:url(../images/menu_on_right2.gif) no-repeat right top;}
 #menu_con li a:hover{ text-decoration:none; background:url(../images/menu_on_left2.gif) no-repeat left bottom;}
 #menu_con li a:hover span{ background:url(../images/menu_on_right2.gif) no-repeat right bottom;}
-.timer{ text-align:right;}/*×ÓÀ¸Ä¿Ê±¼ä*/
+.timer{ text-align:right;}/*å­æ ç›®æ—¶é—´*/
 /*Part One*/
 #part1{ width:990px; margin:auto; text-align:left; background:#FFF; overflow:hidden}
 #sideL{ width:291px; float:left; padding:10px 0 0 5px;}
@@ -64,7 +64,7 @@ body{font-size:12px;background: url(../images/bg.jpg) repeat-x #e3effb;color:#66
 .sps{ padding:6px 0 0 8px;}
 .ad{clear:both; text-align:center}
 .ad img{ width:980px; }
-/*ÖĞ¼äĞÂÎÅÍ¼Æ¬+ÁĞ±í*/
+/*ä¸­é—´æ–°é—»å›¾ç‰‡+åˆ—è¡¨*/
 .newsL{ float:left; width:732px; margin:0 0 0 4px;overflow: hidden}
 .newsL h4{ background:url(../images/ul.png) no-repeat; color:#FFF; padding:8px 0 0 30px; height:37px; font-size:14px;}
 .newsL h4 span{ float:right;padding-left:210px; font-size:12px}
@@ -83,7 +83,7 @@ body{font-size:12px;background: url(../images/bg.jpg) repeat-x #e3effb;color:#66
 .newsR ul{ border-top: #CCC 1px dashed; padding-left:10px; padding-right:10px; margin-right:10px;}
 .newsR ul li{ border-bottom:#CCC 1px dashed; list-style-type:none}
 .newsR ul li a:hover{color: #f00; text-decoration:underline}
-/*²úÆ·ÍÆ¼ö*/
+/*äº§å“æ¨è*/
 #demo{ overflow:hidden; width:950px;}
 #demo img{ border:#CCC 1px solid; margin-left:10px;  height:140px; padding:3px}
 .tjl{ float:left; background:url(../images/bgtjcp.png); width:18px; height:238px;}
@@ -92,12 +92,12 @@ body{font-size:12px;background: url(../images/bg.jpg) repeat-x #e3effb;color:#66
 .tjcp h3{ font-size:12px; }
 .tjcp h3 span a{ color:#F60; float:right; padding:20px 0 0 0}
 .tjcp h3 img{ padding:10px 0 0 20px;}
-/*ÓÑÇéÁ´½Ó*/
+/*å‹æƒ…é“¾æ¥*/
 #link{width:100%; }
 #link ul{ border-top:#4daa22 2px solid; margin:0px 10px;}
 #link h3{ color:#42921e; font-size:14px; padding-left:10px; line-height:40px}
 #link li{ display:inline; margin:0 10px 0 0; line-height:36px}
-/*µ×²¿µ¼º½*/
+/*åº•éƒ¨å¯¼èˆª*/
 #endnav{ background:url(../images/endnav.png); height:30px;text-align:center;}
 #endnav ul{ list-style-type:none; padding-top:2px;}
 #endnav ul li{ display: inline; line-height:25px; color:#FFF; padding:0px 10px; border-right:#FFF 1px solid}
