@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>追源</title>
+  <meta name="keywords" content="追源" />
+  <meta name="description"
+    content="追源平台，是基于互联网+文化旅游和国家相关政策所打造的致力于成立一个融合了非遗、文化、旅游的一个综合服务平台，且平台有自己的国家发明专利，我们致力于打造创新文化旅游发展网络一体化园区" />
+  <link href="css/main.css" rel="stylesheet">
+  <script src="js/iepng.js"></script>
+  <script type="text/javascript">
+    EvPNG.fix('.container');
+  </script>
+  <!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif] -->
+</head>
+<script language="javascript">
+  function qiehuan(num) {
+    for (var id = 0; id <= 9; id++) {
+      if (id == num) {
+        document.getElementById("qh_con" + id).style.display = "block";
+        document.getElementById("mynav" + id).className = "nav_on";
+      }
+      else {
+        document.getElementById("qh_con" + id).style.display = "none";
+        document.getElementById("mynav" + id).className = "";
+      }
+    }
+  }
+</script>
+
+<body>
+  <div class="container">
+    <!---header begin---->
+    <div id="header">
+      <ul class="f_left">欢迎来到追源</ul>
+    </div>
+    <div id="banner"><video src="images/shiping1.mp4" controls="controls" style="width: 100%;"></div>
+    <div id="menu_out">
+      <div id="menu_in">
+        <div id="menu">
+          <ul id="nav">
+            <li><a class="nav_on" id="mynav0" onmouseover="javascript:qiehuan(0)" href="/"><span>首页</span></a></li>
+            <li class="menu_line"></li>
+            <li><a href="https://www.ihchina.cn/index.html/#page3" onmouseover="javascript:qiehuan(1)" id="mynav1"
+                class="nav_off"><span>非遗传承</span></a></li>
+            <li class="menu_line"></li>
+            <li><a href="https://www.mee.gov.cn/" onmouseover="javascript:qiehuan(2)" id="mynav2"
+                class="nav_off"><span>环保</span></a></li>
+            <li class="menu_line"></li>
+          </ul>
+          <div id="menu_con">
+
+            <div id="qh_con0" style="display:block">
+              <ul>
+                <li>
+                  <form name="SearchForm" method="post" action="Search.asp" onSubmit="return doSubmit()">
+                    <input name="SearchKey" type="text" class="input_text" id="SearchKey" size="15" /><input
+                      type="submit" name="Submit" value=" 搜索 " class="input_submit" />
+                  </form>
+                </li>
+              </ul>
+            </div>
+            <ul class="timer" style="padding:10px 10px 0 0">
+              <script src="js/timer.js"></script>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="part1">
+      <div id="sideL">
+        <ul class="sider">
+          <img src="images/52.jpg" style="width: 100%;height: 100%;">
+          <!-- <script language='javascript'> 
+linkarr = new Array();
+picarr = new Array();
+textarr = new Array();
+var swf_width=290;
+var swf_height=220;
+var configtg='0xffffff|0|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+var files = "";
+var links = "";
+var texts = "";
+linkarr[1] = "https://www.ihchina.cn/index.html/#page6";
+picarr[1]  = "images/01.jpg";
+textarr[1] = "";
+linkarr[2] = "https://www.ihchina.cn/index.html/#page6";
+picarr[2]  = "images/02.jpg";
+textarr[2] = " ";
+linkarr[3] = "https://www.ihchina.cn/index.html/#page6";
+picarr[3]  = "https://www.ihchina.cn/index.html/#page6";
+textarr[3] = "";
+linkarr[4] = "hhttps://www.ihchina.cn/index.html/#page6";
+picarr[4]  = "images/04.jpg";
+textarr[4] = " ";
+linkarr[5] = "https://www.ihchina.cn/index.html/#page6";
+picarr[5]  = "images/02.jpg";
+textarr[5] = " ";
+ 
+for(i=1;i<picarr.length;i++){
+if(files=="") files = picarr[i];
+else files += "|"+picarr[i];
+}
+for(i=1;i<linkarr.length;i++){
+if(links=="") links = linkarr[i];
+else links += "|"+linkarr[i];
+}
+for(i=1;i<textarr.length;i++){
+if(texts=="") texts = textarr[i];
+else texts += "|"+textarr[i];
+}
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+document.write('<param name="movie" value="images/bcastr3.swf"><param name="quality" value="high">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'">');
+document.write('<embed src="images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'& menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
+</script> -->
+        </ul>
+        <ul class="intro">
+          <p>源平台，是基于互联网+非物质文化遗产和国家相关政策所打造的综合型服务平台，平台的运营方式是为第三方提供交易服务。平台以第三方合作为主要收入来源，且平台服务范围广、产品种类繁多，反映出了平台的市场影响力和竞争力。</p>
+        </ul>
+      </div>
+      <div id="sideC">
+        <ul>
+          <h4><a href="#" target="_blank">剧本杀宣传非遗</a></h4>
+          <img src="images/ex01.jpg" height="100px" width="120px"><img src="images/ex080.jpg" height="100px" width="120px"><img src="images/ex01.jpg" height="100px" width="130px">
+          <p>在这个科技发达的时代，你们带着不同的目的来到了这个名为“古戏台”的戏院，也许是传承戏剧戏曲文化，也许是想更新换代，但你们其中也有些人想隐藏什么秘密。你们各怀私心，这次的机遇或许能让你们在自己的领域独步一时，又或者坠入万丈深渊...</p>
+          
+        </ul>
+        <div class="news">
+          <li><a
+              href="https://www.douyin.com/search/%E9%9D%9E%E9%81%97?aid=b1a4ca8e-8ba5-40ea-9ef0-1be49fb17cd0&type=general"
+              target="_blank">非遗短视频在各个平台上逐渐兴荣</a></li>
+          <li><a href="/" target="_blank">非遗文化剧本杀，开创文化发展新思路</a></li>
+          <li><a href="/" target="_blank">积极相应国家政策，振兴乡村经济</a></li>
+          <li><a href="/" target="_blank">时代的前沿：文化始终是发展与繁荣之本</a></li>
+
+        </div>
+      </div>
+      <div id="sideR">
+        <ul>
+          <li><a href="/" target="_blank">原创非遗文化剧本杀"戏台"初本完稿</a></li>
+          <li><a href="/" target="_blank">传承创新非遗文化作为发展中心</a></li>
+          <li><a href="/" target="_blank">以非遗产品带动当地经济发展</a></li>
+          <li><a href="/" target="_blank">剧本杀备受年轻人喜爱</a></li>
+          <li><a href="/" target="_blank">ͨ国家政策大力支非遗文化传承</a></li>
+          <li><a href="/" target="_blank">ͨ宣扬传统文化，并且加以创新使用</a></li>
+        </ul>
+        <div class="sp">
+          <h4>文化创新<span><a href="/"></a>追源</span></h4>
+
+          <p class="sps"><img src="images/230170.png" style="width: 235px;height: 172px;" /></p>
+
+        </div>
+      </div>
+      <div class="blank"></div>
+      <div class="ad">
+        <img src="images/banner2.jpg" />
+      </div>
+      <div class="newsL">
+        <div class="lef">
+          <h4>特色非遗产品<span><a href="/">非遗</a></span></h4>
+          <ul class="newsP">
+            <img src="images/ex01.jpg" /><img src="images/ex.png" /><img src="images/ex02.jpg" />
+          </ul>
+          <ul class="newsul">
+            <li><a href="/" target="_blank">戏台</a></li>
+            <li><a
+                href="https://mp.weixin.qq.com/s?__biz=Mzg2MDYwNzY1Mw==&mid=2247495993&idx=3&sn=a79a25d077242cae7d87c59a1ed85ee5&chksm=ce2174f3f956fde5dfcebec0ad3986870feb6e2799bd7c57159e7db496d49b3531f8b1239083&scene=27"
+                target="_blank">“天顺合”</a></li>
+            <li><a href="https://baijiahao.baidu.com/s?id=1797827000737249893&wfr=spider&for=pc" target="_blank">皮影灯</a>
+            </li>
+          </ul>
+        </div>
+        <div class="lef">
+          <h4><span><a href="/">剧本杀</a></span>文化非遗</h4>
+          <ul class="newsP">
+            <img src="images/ex03.jpg" /><img src="images/ex04.jpg" /><img src="images/ex00.jpg" />
+          </ul>
+          <ul class="newsul">
+            <li><a href="https://www.ihchina.cn/solar_terms.html" target="_blank">二十四节气</a></li>
+            <li><a
+                href="https://www.ihchina.cn/tjq_home.html"
+                target="_blank">太极拳</a></li>
+            <li><a
+                href="https://www.ihchina.cn/page_special.html"
+                target="_blank">宣纸制作</a></li>
+            <li><a href="https://www.ihchina.cn/special2022.html" target="_blank">文化和自然遗产日</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="newsR">
+        <h3>剧本杀推荐</h3>
+        <a href="http://wlgdj.liaoyang.gov.cn/">
+          <h4>剧本杀详解推荐</h4>
+        </a>
+        <ul>
+          <li><a href="https://www.xiaohongshu.com/explore/655cb25f000000003103dd32"
+              target="_blank"></a>文旅新风向——非遗剧本杀</li>
+          <li><a href="https://www.xiaohongshu.com/explore/660a8210000000001a00ccbf" target="_blank">剧本杀规则</a></li>
+          <li><a href="https://www.xiaohongshu.com/explore/65830c570000000006021b35" target="_blank">剧本杀视频教程</a></li>
+          <li><a href="https://www.xiaohongshu.com/explore/65a7a06d0000000029013d9a"
+              target="_blank">暮光</a></li>
+          <!-- <li><a href="https://k.sina.com.cn/article_5925871207_161359e6700100o48h.html" target="_blank">瓦子村</a></li>
+          <li><a href="https://k.sina.com.cn/article_5925871207_161359e6700100o48h.html" target="_blank">参窝水库</a></li>
+          <li><a href="https://k.sina.com.cn/article_5925871207_161359e6700100o48h.html" target="_blank">冷热地公园</a></li> -->
+        </ul>
+      </div>
+
+      <div class="blank"></div>
+      <div class="tjl"></div>
+
+      <div class="tjcp">
+        <h3><span><a href="https://bi-mall.meituan.com/#/">商家入驻</a></span><img src="images/titj.png" /></h3>
+        <div id="demo">
+          <table border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td valign="top" id="demo1"><!--demo1 begin-->
+                  <table border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex01.jpg" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">戏台</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex012.jpg" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">琵琶</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex03.jpg" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">文化非遗</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex04.jpg" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">非遗剧本杀</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex.png" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">“天顺合”</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex01.jpg" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">戏台</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex02.jpg" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">夜灯</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="center">
+                          <table border="0" cellpadding="0">
+                            <tr>
+                              <td><img src="images/ex03.jpg" /></td>
+                            </tr>
+                            <tr>
+                              <td align="center"><a href="">文化非遗</a></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td><!--demo1 end-->
+                <td id="demo2" valign="top"></td><!--demo2-->
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="tjr"></div>
+      <div id="link">
+        <h3>相关平台</h3>
+        <ul>
+          <li><a href="https://zwfw.mct.gov.cn/?type=gb" target="_blank">中华人民共和国文化和旅游部</a></li>
+          <li><a href="http://www.yangqq.com" target="_blank">国家非遗</a></li>
+          <li><a href="http://www.yangqq.com" target="_blank">国家乡村</a></li>
+        </ul>
+      </div>
+      <div id="endnav">
+        <ul>
+          <li>追源网站</li>
+          <li>联系我们</li>
+          <li>电话：13149799313</li>
+          <li><a href="https://www.ihchina.cn/index.html/" target="_blank">非遗文化数字博物馆</a></li>
+          <li><a href="https://www.gov.cn/yaowen/liebiao/202402/content_6929930.htm" target="_blank">政策文件</a></li>
+          <li><a href="https://www.gov.cn/zhengce/zhengceku/202311/content_6914996.htm" target="_blank">法律相关文件</a></li>
+        </ul>
+      </div>
+      <div class="blank"></div>
+      <div id="footer">
+      </div>
+    </div><!---part1 end---->
+  </div><!---container end---->
+</body>
+
+</html>
+<SCRIPT>
+  var speed = 20
+  demo2.innerHTML = demo1.innerHTML
+  function Marquee() {
+    if (demo2.offsetWidth - demo.scrollLeft <= 0)
+      demo.scrollLeft -= demo1.offsetWidth
+    else {
+      demo.scrollLeft++
+    }
+  }
+  var MyMar = setInterval(Marquee, speed)
+  demo.onmouseover = function () { clearInterval(MyMar) }
+  demo.onmouseout = function () { MyMar = setInterval(Marquee, speed) }
+</SCRIPT>
